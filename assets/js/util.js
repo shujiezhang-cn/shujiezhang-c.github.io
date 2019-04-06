@@ -585,3 +585,9 @@
 	};
 
 })(jQuery);
+
+
+function myFunction() {
+ 
+  alert("Copied: " + "liu_zi_ming@pku.edu.cn");
+}

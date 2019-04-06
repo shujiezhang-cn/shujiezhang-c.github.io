@@ -29,6 +29,42 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 	
+	
+/*蒙版*/
+.mask{
+display:none;
+width:100%;
+position:absolute;
+background:#fff;
+z-index:10;
+top:0;
+left:0;
+height:100%;
+opacity:0.4;
+}
+ 
+/*弹框*/
+.bomb_box {
+display:none;
+background:#fff;
+position:absolute;
+top:320px;
+left:500px;
+z-index:20;
+}
+	
+	
+
+.gray { 
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    
+    filter: grayscale(100%);
+	
+    filter: gray;
+}
 
 body {
 	line-height: 1;

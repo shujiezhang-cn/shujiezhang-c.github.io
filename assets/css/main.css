@@ -3270,7 +3270,7 @@ input, select, textarea {
 			}
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 2pt;ra
 			}
 
 		/* List */
@@ -3322,3 +3322,20 @@ input, select, textarea {
 			}
 
 	}
+
+.box{
+  width: 800px;
+  height: 280px;
+  background: white;
+}
+.left-box,.right-box{
+  width: 50%;
+  height: 100%;
+  float: left;//设置两个盒子float:left
+}
+.left-box{
+  background: whilte;
+}
+.right-box{
+  background: white;
+}

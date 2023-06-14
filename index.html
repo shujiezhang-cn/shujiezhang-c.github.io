@@ -37,10 +37,16 @@
 	  
 		  <div class="column right" align="left">
 		    <h2>Biography <a href="./pdfs/CV.pdf" style="font-size: 20px; color: blue; text-decoration: underline;">CV</a></h2>
-		    <p style="margin-bottom: 2%;">I am a third-year Physics PhD student at <a href="https://web.mit.edu/physics/">MIT</a> and <a href="https://iaifi.org/">IAIFI</a>, advised by <a href="https://space.mit.edu/home/tegmark/">Prof. Max Tegmark</a>. I have interned at Microsoft Research Asia. Before that, I received my Bachelor's degree in physics from Peking University. Prior to that, my memories are sealed in my hometown, Wuhan.</p>
-		    <p style="margin-bottom: 2%">I research on the intersection of artificial intelligence and physics in general, including but not limited to:</p> 
-		    <p>(1) AI for physics: extracting physical insights (e.g. conservation laws and symmetries) from data, improving prediction accuracy and sampling efficiency for data analysis in physics; 
-		    <p>(2) Physics for AI: developing effective theories to understand the dynamics and generalization of neural networks, and building physics-inspired machine learning models.
+		    <p style="margin-bottom: 2%;">I am a third-year Physics PhD student at <a href="https://web.mit.edu/physics/">MIT</a> and <a href="https://iaifi.org/">IAIFI</a>, advised by <a href="https://space.mit.edu/home/tegmark/">Prof. Max Tegmark</a>. <!--I have interned at Microsoft Research Asia. Before that, I received my Bachelor's degree in physics from Peking University. Prior to that, my memories are sealed in my hometown, Wuhan.--> I research in the intersection of artificial intelligence and physics in general, including but not limited to:
+		    <p>(1) AI for physics
+            <br>&emsp; [a] Discovering physical equations/concepts from data with AI.
+            <br>&emsp; [b] Improve data analysis in physics with AI.
+		    <p>(2) Physics for AI
+            <br>&emsp; [a] Developing "physics-like" theories to understand neural networks.
+            <br>&emsp; [b] Building physics-inspired machine learning models, esp. generative models.
+            <p>(3) Mechanistic Interpretability
+            <br>&emsp; [a] Understanding large language models (LLMs) from a mechanistic view.
+            <br>&emsp; [b] Making neural networks intrinsically interpretable using physical/biological inspirations.
 		    <!--<p>Besides that, I am generally interested in applications of AI to chemistry, biology, vision, language, medicine and robotics. I am happy and open to any form of collaboration. </p>-->
 		    <!--<p>I love music and mobile photography in my leisure time, but also have great fun thinking about (somewhat philosophical) questions regarding the boundary (if any) between human & artificial intelligence, mathematical modeling of humanities and other nerdy stuff. </p>-->
 		  </div>
@@ -123,6 +129,19 @@
 						<div style="background-color: azure" id="pub">
 						<h3 style="margin-left: 10%; margin-top: 2em">Recent Publications</h3>
                         
+                        
+                        <div class="row" style="width: 80%; margin-left:7%; margin-bottom: 3%">
+                            <div class="column left" align="center">
+                                <img src="./images/sid.png" width="250">
+                            </div>
+                            <div class="column right" align="left">
+                                <p style="margin-bottom: 0.5em"> Discovering New Interpretable Conservation Laws as Sparse Invariants (<b>Ziming Liu</b>, Patrick Obin Sturm, Saketh Bharadwaj, Sam Silva, Max Tegmark)<br>
+                                Comment: We propose the Sparse Invariant Detector (SID), an algorithm that auto-discovers conservation laws from differential equations. For two examples in fluid mechanics and atmospheric chemistry, SID discovers 14 and 3 conserved quantities, respectively, where only 12 and 2 were previously known to domain experts. </p>
+                                <a href="https://arxiv.org/abs/2305.19525" style="border: 2px solid lightgray; border-radius: 5px">arxiv</a>
+                            </div>
+                        </div>
+                        
+                        
                         <div class="row" style="width: 80%; margin-left:7%; margin-bottom: 3%">
                             <div class="column left" align="center">
                                 <img src="./images/bimt.png" width="250">
@@ -132,6 +151,31 @@
                                 Comment: We introduce Brain-Inspired Modular Training (BIMT), a  method for making neural networks more modular and interpretable. </p>
                                 <a href="https://arxiv.org/abs/2305.08746" style="border: 2px solid lightgray; border-radius: 5px">arxiv</a>
                                 <a href="https://github.com/KindXiaoming/BIMT" style="border: 2px solid lightgray; border-radius: 5px">code</a>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="row" style="width: 80%; margin-left:7%; margin-bottom: 3%">
+                            <div class="column left" align="center">
+                                <img src="./images/genphys.png" width="250">
+                            </div>
+                            <div class="column right" align="left">
+                                <p style="margin-bottom: 0.5em"> GenPhys: From Physical Processes to Generative Models (<b>Ziming Liu</b>, Di Luo, Yilun Xu, Tommi Jaakkola, Max Tegmark)<br>
+                                Comment: We introduce GenPhys which can convert any smooth physical process to a generative model. </p>
+                                <a href="https://arxiv.org/abs/2304.02637" style="border: 2px solid lightgray; border-radius: 5px">arxiv</a>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="row" style="width: 80%; margin-left:7%; margin-bottom: 3%">
+                            <div class="column left" align="center">
+                                <img src="./images/pfgmpp.png" width="250">
+                            </div>
+                            <div class="column right" align="left">
+                                <p style="margin-bottom: 0.5em"> PFGM++: Unlocking the Potential of Physics-Inspired Generative Models (Yilun Xu, <b>Ziming Liu</b>, Yonglong Tian, Shangyuan Tong, Max Tegmark, Tommi Jaakkola)<br>
+                                Comment: We introduce PFGM++ which unifies diffusion models and Poisson Flow Genereative Models (PFGM). </p>
+                                <a href="https://arxiv.org/abs/2302.04265" style="border: 2px solid lightgray; border-radius: 5px">arxiv</a>
+                                <a href="https://github.com/Newbeeer/pfgmpp" style="border: 2px solid lightgray; border-radius: 5px">code</a>
                             </div>
                         </div>
                         

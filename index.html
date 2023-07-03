@@ -11,42 +11,56 @@
 	
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
 		<!--<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">-->
 	</head>
 
 	<body>
-		<ul id="fix" style="background-image: url('./images/banner.png')">
-		  <li><a class="active" href="#home">Home</a></li>
+		<ul  id="fix" style="background-image: url('./images/banner.png'); height: 55px;">
+		  <li><a class="active" href="#home">About Me</a></li>
 		  <li><a href="#pub">Publication</a></li>
-		  <li><a href="#gallery">Gallery</a></li>
-		  <li><a href="#random">Random Topics</a></li>
+          <li><a href="#talk">Talks</a></li>
+		  <li><a href="#news">News</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#random">Random</a></li>
 		</ul>
 
 		<!--<div class="row">
 			<img src="./images/banner.png" widht=2000>
 		</div>-->
 
-		<div class="row" style="width: 80%; padding-top: 7.5em; margin-left:7%">
+		<div class="row" style="width: 85%; padding-top: 7.5em; margin-left:7%" id="home">
 
-		<div class="column left" align="center">
-		    <img src="./images/ziming_zoom.png" width="300">
+		<div class="column left" align="center" style="padding-top: 4.5em">
+		    <img src="./images/sixflag_angry.jpeg" width="250">
 		    <h4 style="margin-bottom: -0.2em">Ziming Liu (刘子鸣)</h4>
-		    <h4 style="margin-bottom: -0.2em">PhD student</h4>
-		    <h4>@MIT and IAIFI</h4>
+            <h5 style="margin-bottom: -0.2em">AI & Physics researcher</h5>
+		    <h5 style="margin-bottom: -0.2em">PhD student</h5>
+		    <h5>@MIT and IAIFI</h5>
+            <div class="row" id="contact" style="width: 80%; margin-top: 0em; margin-left:25%">
+
+                <ul class="icons" style="background-color: white">
+                    <li><a href="https://scholar.google.com/citations?user=0b32RKAAAAAJ&hl=zh-CN" style="color:black; text-decoration: none"><img src="./assets/fonts/google-scholar.svg" width=40 style="position:relative;top:0px;"></a></li>
+                    <li><a href="https://github.com/KindXiaoming" style="color:black; text-decoration: none"><img src="./assets/fonts/github.svg" width=40 style="position:relative;top:0px; "></a></li>
+                    <li><a href="https://twitter.com/ZimingLiu11"><i class="fa fa-twitter" style="font-size:40px; color:black"></i></a></li>
+                </ul>
+                <ul class="icons" style="background-color: white">
+                    <li><a href="https://www.researchgate.net/profile/Ziming_Liu13" style="color:black; text-decoration: none"><img src="./assets/fonts/researchgate-brands.svg" width=30 style="position:relative;top:0px;"></a></li>
+                    <li><a href="https://www.zhihu.com/people/liu-zi-ming-36-64/activities" style="color:black; text-decoration: none; margin-left: 0%"><img src="./assets/fonts/zhihu-brands.svg" width=40 style="position:relative;top:0px"></a></li>
+                    <li><a href="https://zimingliublog.wordpress.com/"><i class="fa fa-wordpress" style="font-size:40px; color:black"></i></a><li>
+                </ul>
+            </div>
+            <br>
+            <p> Email: zmliu@mit.edu </p>
 	    </div>
 	  
 		  <div class="column right" align="left">
-		    <h2>Biography <a href="./pdfs/CV.pdf" style="font-size: 20px; color: blue; text-decoration: underline;">CV</a></h2>
-		    <p style="margin-bottom: 2%;">I am a third-year Physics PhD student at <a href="https://web.mit.edu/physics/">MIT</a> and <a href="https://iaifi.org/">IAIFI</a>, advised by <a href="https://space.mit.edu/home/tegmark/">Prof. Max Tegmark</a>. <!--I have interned at Microsoft Research Asia. Before that, I received my Bachelor's degree in physics from Peking University. Prior to that, my memories are sealed in my hometown, Wuhan.--> I research in the intersection of artificial intelligence and physics in general, including but not limited to:
-		    <p>(1) AI for physics
-            <br>&emsp; [a] Discovering physical equations/concepts from data with AI.
-            <br>&emsp; [b] Improve data analysis in physics with AI.
-		    <p>(2) Physics for AI
-            <br>&emsp; [a] Developing "physics-like" theories to understand neural networks.
-            <br>&emsp; [b] Building physics-inspired machine learning models, esp. generative models.
-            <p>(3) Mechanistic Interpretability
-            <br>&emsp; [a] Understanding large language models (LLMs) from a mechanistic view.
-            <br>&emsp; [b] Making neural networks intrinsically interpretable using physical/biological inspirations.
+		    <h2>About Me</h2>
+		    <p style="margin-bottom: 1.5%;">I am a physicist and a machine leanring researcher. Trained as a physicist, I am enthusiastic about understanding & improving artificial intelligence from first principles. I believe that a good candidate of machine learning theory is physics-like, simple and effective.
+            <p style="margin-bottom: 1.5%;">I am currently a third-year PhD student at <a href="https://www.mit.edu/">MIT</a> and <a href="https://iaifi.org/">IAIFI</a>, advised by <a href="http://tegmark.org/">Max Tegmark</a>. My research interests lie generally in the intersection of artificial intelligence (AI) and physics. I pursue these questions: (1) physics for AI: how to use physics to improve AI? (2) physics of AI: how to use physics to understand AI? (3) AI for physics (science): how to use AI to boost science?
+            <p style="margin-bottom: 1.5%;">With the ultimate goal to understand the "physics of intelligence", I work on many sub-topics, including but not limited to AI for science, generative models, machine learning theory, mechanistic interpretability, etc. I give talks at many venues and my works have been covered by news and podcasts. I publish papers both in top physics journals and top AI conferences. I serve as a reviewer for IEEE, Physcial Reviews, NeurIPS, etc. I co-organized the AI4Science workshop at NeurIPS2021 and ICML2022.
+            <p style="margin-bottom: 1.5%;">Before my PhD, I interned at Microsoft Research Asia. Before that, I obtained my B.S. from school of physics in Peking University. Before that, my memory is sealed in my hometown, Wuhan.
 		    <!--<p>Besides that, I am generally interested in applications of AI to chemistry, biology, vision, language, medicine and robotics. I am happy and open to any form of collaboration. </p>-->
 		    <!--<p>I love music and mobile photography in my leisure time, but also have great fun thinking about (somewhat philosophical) questions regarding the boundary (if any) between human & artificial intelligence, mathematical modeling of humanities and other nerdy stuff. </p>-->
 		  </div>
@@ -71,63 +85,34 @@
 		<!-- Wrapper -->
 
 							
-								<div class="row" id="contact" style="width: 80%; margin-top: 0em; margin-left:25%">
-
-									<ul class="icons" style="background-color: white">
-										
-										<li><a href="https://www.zhihu.com/people/liu-zi-ming-36-64/activities" style="color:black; text-decoration: none; margin-left: 0%"><img src="./assets/fonts/zhihu-brands.svg" width=40 style="position:relative;top:0px"></a></li>
-										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-										<li><a href="https://github.com/KindXiaoming" style="color:black; text-decoration: none"><img src="./assets/fonts/github.svg" width=40 style="position:relative;top:0px; "></a></li>
-										&nbsp;&nbsp;&nbsp;&nbsp;
-										<li><a href="https://scholar.google.com/citations?user=0b32RKAAAAAJ&hl=zh-CN" style="color:black; text-decoration: none"><img src="./assets/fonts/google-scholar.svg" width=40 style="position:relative;top:0px;"></a></li>
-										&nbsp;&nbsp;&nbsp;&nbsp;
-										<li><a href="https://www.researchgate.net/profile/Ziming_Liu13" style="color:black; text-decoration: none"><img src="./assets/fonts/researchgate-brands.svg" width=30 style="position:relative;top:0px;"></a></li>
-										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-										<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email: zmliu.at.mit.edu | liu_zi_ming.at.pku.edu.cn</p>
-										
-									</ul>
-								</div>
-
-
-                        <!-- Publication -->
-                        <div style="background-color: azure" id="pub">
-                        <h3 style="margin-left: 10%; margin-top: 2em">Highlighted Talks</h3>
-                        <div class="row" style="width: 80%; margin-left:10%; margin-bottom: 3%">
-                            <div class="column" align="left">
-                                <p>1. Title: What Does a Good Machine Learning Theory Look Like? -- From a Physicist's Perspective
-                                    <br>
-                                    &emsp;@Swarma, <a href="./pdfs/physics_of_AI.pdf">Slides</a>
-                                    <br>
-                                    2. Title: Understanding Grokking from Perspectives of Physics
-                                    <br>
-                                    &emsp;@WestLake University, <a href="./pdfs/grokking.pdf">Slides</a>
-                                    <br>
-                                    3. Title: From Physics to Generative Models
-                                    <br>
-                                    &emsp;@IAIFI Journal Club, @M2D2 Journal Club, <a href="./pdfs/physics_generative_model.pdf">Slides</a>
-                                    <br>
-                                    4. Title: Understanding Neural Scaling Laws in LLM and Beyond
-                                    <br>
-                                    &emsp;@Swarma, <a href="./pdfs/understanding_LLM.pdf">Slides</a>
-                                    <br>
-                                    5. Title: Intelligence from Hunger
-                                    <br>
-                                    &emsp;@TikTok, @MIT Mechanstic Interpretability Conference, <a href="./pdfs/intelligence_from_hunger.pdf">Slides</a>
-                                    <br>
-                                    6. Title: AI for Discoverie in Physics
-                                    <br>
-                                    &emsp;@Swarma, <a href="./pdfs/ai_for_discovery_in_physics.pdf">Slides</a>
-                                    <br>
-                                    7. Title: How Can Human Scientists Survive in the Time of AI?
-                                    <br>
-                                    &emsp;@Peking University, Boston Physics Seminar, <a href="./pdfs/how_can_scientists_survive_in_AI.pdf">Slides</a>
-                                </p>
-                            </div>
-                        </div>
-							
 						<!-- Publication -->
 						<div style="background-color: azure" id="pub">
+                        <h3>&emsp;</h3>
 						<h3 style="margin-left: 10%; margin-top: 2em">Recent Publications</h3>
+                        
+                        
+                        <div class="row" style="width: 80%; margin-left:7%; margin-bottom: 3%">
+                            <div class="column left" align="center">
+                                <img src="./images/pizza.png" width="250">
+                            </div>
+                            <div class="column right" align="left">
+                                <p style="margin-bottom: 0.5em"> The Clock and the Pizza: Two Stories in Mechanistic Explanation of Neural Networks (Ziqian Zhong*, <b>Ziming Liu*</b>, Max Tegmark, Jacob Andreas)<br>
+                                Comment:  Some networks trained to perform modular addition implement a familiar Clock algorithm; others implement a previously undescribed, less intuitive, but comprehensible procedure we term the Pizza algorithm, or a variety of even more complex procedures.  </p>
+                                <a href="https://arxiv.org/abs/2306.17844" style="border: 2px solid lightgray; border-radius: 5px">arxiv</a>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="row" style="width: 80%; margin-left:7%; margin-bottom: 3%">
+                            <div class="column left" align="center">
+                                <img src="./images/restart.png" width="250">
+                            </div>
+                            <div class="column right" align="left">
+                                <p style="margin-bottom: 0.5em"> Restart Sampling for Improving Generative Processes (Yilun Xu, Mingyang Deng, Xiang Chen, Yonglong Tian, <b>Ziming Liu</b>, Tommi Jaakkola)<br>
+                                Comment: We propose a novel sampling algorithm called Restart in order to better balance discretization errors and contraction. The sampling method alternates between adding substantial noise in additional forward steps and strictly following a backward ODE. Empirically, Restart sampler surpasses previous SDE and ODE samplers in both speed and accuracy.  </p>
+                                <a href="https://arxiv.org/abs/2306.14878" style="border: 2px solid lightgray; border-radius: 5px">arxiv</a>
+                            </div>
+                        </div>
                         
                         
                         <div class="row" style="width: 80%; margin-left:7%; margin-bottom: 3%">
@@ -144,7 +129,7 @@
                         
                         <div class="row" style="width: 80%; margin-left:7%; margin-bottom: 3%">
                             <div class="column left" align="center">
-                                <img src="./images/bimt.png" width="250">
+                                <img src="./images/bimt.gif" width="250">
                             </div>
                             <div class="column right" align="left">
                                 <p style="margin-bottom: 0.5em"> Seeing is Believing: Brain-Inspired Modular Training for Mechanistic Interpretability (<b>Ziming Liu</b>, Eric Gan and Max Tegmark)<br>
@@ -377,13 +362,152 @@
 								</div>
 							</div>
 
-
-
 						</div>
+                        
+                        
+                    
+                    
+                    
+                    <!-- Talk -->
+                    <div style="background-color: azure" id="talk">
+                    <h3>&emsp;</h3>
+                    <h3 style="margin-left: 10%; margin-top: 2em">Highlighted Talks</h3>
+                    <div class="row" style="width: 80%; margin-left:10%; margin-bottom: 3%">
+                        <p>I give talks on various topics in many places, including but not limited to CMU, MIT, Tiktok, Peking University, WestLake University, Swarma, and all kinds of journal clubs. Check out my slides/videos below. </p>
+                        
+                        <div style="width: 100%; margin-left:3%; margin-right:3%; margin-bottom: 3%; background-color: azure;" class="row">
+                            <div class="gallery2">
+                                <br>
+                               <p align="center">What Does a Good Machine Learning Theory Look Like?</p>
+                                <img src="./images/1-slide.png">
+                               <p align="center"><a href="./pdfs/physics_of_AI.pdf">Slides</a></p>
+                            </div>
+
+                            <div class="gallery2">
+                                <br>
+                               <p align="center">Understanding Grokking from Perspectives of Physics</p>
+                                <img src="./images/2-slide.png">
+                               <p align="center"><a href="./pdfs/grokking.pdf">Slides</a></p>
+                            </div>
+
+                            <div class="gallery2">
+                                <br>
+                               <p align="center">From Physics to Generative Models</p>
+                               <br>
+                                <img src="./images/3-slide.png">
+                               <p align="center"><a href="./pdfs/physics_generative_model.pdf">Slides</a>, <a href="https://www.youtube.com/watch?v=fTKkRde9wkE">Video</a></p>
+                            </div>
+
+                        </div>
+                        
+                        
+                        <div style="width: 100%; margin-left:3%; margin-right:3%; margin-bottom: 3%; background-color: azure;" class="row">
+                            <div class="gallery2">
+                                <br>
+                               <p align="center">Understanding Neural Scaling Laws in LLM and Beyond</p>
+                                <img src="./images/4-slide.png">
+                               <p align="center"><a href="./pdfs/understanding_LLM.pdf">Slides</a></p>
+                            </div>
+
+                            <div class="gallery2">
+                                <br>
+                               <p align="center">Intelligence from Hunger</p>
+                                <img src="./images/5-slide.png">
+                               <p align="center"><a href="./pdfs/intelligence_from_hunger.pdf">Slides</a></p>
+                            </div>
+
+                            <div class="gallery2">
+                                <br>
+                               <p align="center">AI for Discoverie in Physics</p>
+                               <br>
+                                <img src="./images/6-slide.png">
+                               <p align="center"><a href="./pdfs/ai_for_discovery_in_physics.pdf">Slides</a></p>
+                            </div>
+
+                        </div>
+                        
+                        
+                        <div style="width: 100%; margin-left:3%; margin-right:3%; margin-bottom: 3%; background-color: azure;" class="row">
+                            <div class="gallery2">
+                                <br>
+                               <p align="center">How Can Human Scientists Survive in the Time of AI?</p>
+                                <img src="./images/7-slide.png">
+                               <p align="center"><a href="./pdfs/how_can_scientists_survive_in_AI.pdf">Slides</a></p>
+                            </div>
+
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    
+                    
+                    
+                    <!-------News-------->
+                    <div style="background-color: azure" id="news">
+                    <h3>&emsp;</h3>
+                    <h3 style="margin-left: 10%; margin-top: 2em">News</h3>
+                    <div class="row" style="width: 80%; margin-left:10%; margin-bottom: 3%">
+                        <p>My works have received wide attention in public, and have been promoted on social media/news/podcast. </p>
+                        
+                        <div style="width: 100%; margin-left:3%; margin-right:3%; margin-bottom: 3%; background-color: azure;" class="row">
+                            <div class="gallery2">
+                                <br>
+                               <p align="left">It's my greatest pleasure to be on the Cognitive Revolution Podcast!</p>
+                                <img src="./images/1-news.png">
+                                <br/>
+                                <br/>
+                               <p align="center"><a href="https://www.cognitiverevolution.ai/e39-seeing-is-believing-with-mits-ziming-liu/">Podcast</a></p>
+                            </div>
+
+                            <div class="gallery2">
+                                <br>
+                               <p align="left">Our hidden symmetry paper is covered by New Scientist!</p>
+                                <img src="./images/2-news.png">
+                                    <br/>
+                                    <br/>
+                               <p align="center"><a href="https://www.newscientist.com/article/2320662-ai-solves-complex-physics-problems-by-looking-for-signs-of-symmetry/">News </a></p>
+                            </div>
+
+                            <div class="gallery2">
+                                <br>
+                               <p align="left">A Nature Review paper acknowledges my contribution in AI for Physics! </p>
+                                <img src="./images/3-news.png">
+                                    <br/>
+                                    <br/>
+                               <p align="center"><a href="https://www.nature.com/articles/s42254-022-00497-5">paper</a></p>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                    
+                    
+                    
+                    <!-------Blog-------->
+                    <div style="background-color: azure" id="blog">
+                    <h3>&emsp;</h3>
+                    <h3 style="margin-left: 10%; margin-top: 2em">Blog</h3>
+                    <div class="row" style="width: 80%; margin-left:10%; margin-bottom: 3%">
+                        <p>I write blogs on <a href="https://zimingliublog.wordpress.com/">wordpress</a>. My blogs document my quest for "physics of intelligence", "simplifying intelligence".</p>
+                        
+                        <div style="width: 100%; margin-left:3%; margin-right:3%; margin-bottom: 3%; background-color: azure;" class="row">
+                            <div class="gallery2">
+                                <br>
+                               <p align="left"><a href="https://zimingliublog.wordpress.com/2023/06/16/a-good-ml-theory-is-like-physics-a-physicists-analysis-of-grokking/">A good ML theory is probably like physics</a></p>
+                                <img src="./images/1-blog.png">
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                    
 					
+                    <!------Gallery-------->
 							
 								
 					<div style="background-color: azure" id="gallery">
+                        <h3>&emsp;</h3>
 						<h3 style="margin-left: 10%; margin-top: 2em">Gallery</h3>
 
 						<div style="width: 80%; margin-left:7%; margin-bottom: 3%; background-color: azure;" class="row">
@@ -409,7 +533,7 @@
 					</div>
 
 
-						<div style="width: 80%; margin-left:7%; margin-bottom: 3%; background-color: azure;" class="row">
+                    <div style="width: 80%; margin-left:7%; margin-bottom: 3%; background-color: azure;" class="row">
 						<div class="gallery">
 						    <img src="./images/qhmc_minion.jpg" alt="Cinque Terre" width="800" height="600">
 						  <div class="desc">QHMC Cartoon (Produced from Adobe Illustrator).</div>
@@ -433,7 +557,7 @@
 
 
 
-						<div style="width: 80%; margin-left:7%; margin-bottom: 3%; background-color: azure;" class="row">
+                    <div style="width: 80%; margin-left:7%; margin-bottom: 3%; background-color: azure;" class="row">
 						<div class="gallery">
 						    <img src="./images/columbia.jpg" alt="Cinque Terre" width="800" height="600">
 						  <div class="desc">Quark Matter 2019 @ Columbia University</div>
@@ -458,7 +582,7 @@
 
 
 
-						<div style="width: 80%; margin-left:7%; margin-bottom: 3%; background-color: azure;" class="row">
+                    <div style="width: 80%; margin-left:7%; margin-bottom: 3%; background-color: azure;" class="row">
 						<div class="gallery">
 						    <img src="./images/self.jpg" alt="Cinque Terre" width="800" height="600">
 						  <div class="desc">Myself @ PKU</div>
@@ -481,7 +605,7 @@
 					</div>
 
 
-						<div style="width: 80%; margin-left:7%; margin-bottom: 3%; background-color: azure;" class="row">
+                    <div style="width: 80%; margin-left:7%; margin-bottom: 3%; background-color: azure;" class="row">
 						<div class="gallery">
 						    <img src="./images/stair.jpg" alt="Cinque Terre" width="800" height="600">
 						  <div class="desc">Dorm @ PKU</div>
@@ -504,7 +628,7 @@
 					</div>
 
 
-						<div style="width: 80%; margin-left:7%; margin-bottom: 3%; background-color: azure;" class="row">
+                    <div style="width: 80%; margin-left:7%; margin-bottom: 3%; background-color: azure;" class="row">
 						<div class="gallery">
 						    <img src="./images/playground.jpg" alt="Cinque Terre" width="800" height="600">
 						  <div class="desc">54 Playground @ PKU</div>
@@ -531,7 +655,8 @@
 
 
 					<div class="container" id="random" style="margin-bottom: 3em">
-									<h3>Random Research Topics</h3>
+                        <h3>&emsp;</h3>
+									<h3>Random Topics (until 2020)</h3>
 									<center><img src="./images/research_interest.jpg" width="600",height="300"></center>
 									<p></p>
 									<ul class="feature-icons">

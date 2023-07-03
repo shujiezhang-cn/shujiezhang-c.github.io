@@ -3316,9 +3316,9 @@ li a:hover:not(.active) {
 
 
 div.gallery {
-  margin: 5px;
+  margin: 1px;
   border: 1px solid #ccc;
-  float: left;
+  float: center;
   width: 24%;
 }
 
@@ -3327,7 +3327,23 @@ div.gallery:hover {
 }
 
 div.gallery img {
-  width: 100%;
+  width: 90%;
+  height: auto;
+}
+
+div.gallery2 {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: center;
+  width: 32%;
+}
+
+div.gallery2:hover {
+  border: 1px solid #777;
+}
+
+div.gallery2 img {
+  width: 90%;
   height: auto;
 }
 
